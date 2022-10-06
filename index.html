@@ -1,0 +1,206 @@
+<!--This is index.html, a template, we are now in HTML 5-->
+
+<!doctype html>
+<html class="no-js" lang="">
+
+<!-- start tag <html> to </html> closing tag
+This tells the browser that everything in between
+the opening and closing is going to be HTML code-->
+
+  <head>
+    <!--
+      It consists of a head
+     -->
+    <meta charset="utf-8">
+    <!--All the metadata in this file will encode using UTF-8 encoding system-->
+    <title>Bohan's Personal Site</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <meta name="theme-color" content="#fafafa">
+  </head>
+
+
+<style type="text/css">
+  td
+  {
+    padding: 0 15px 0 20px;
+  }
+  td:nth-child(2) {
+    padding-right: 50px;
+  }
+</style>
+
+  <body>
+    <!--
+      and a body
+    -->
+    <!-- Add your site or application content here -->
+    <table cellspacing="25">
+      <tr>
+        <td><img src="Bohan_circle.png" width="150" height="150" alt="Bohan profile picture"></td>
+        <td>
+          <h1>Bohan(Kevin) Yang</h1>
+          <p>
+            <em>
+              Computer Science Student in
+              <strong>
+                <!--Anchor tag-->
+                <a href = "https://www.tacoma.uw.edu/">University of Washington</a>
+              </strong>
+            </em>.</p>
+          <!--
+            <p>: Paragraph tag
+            <em> emphasis tag, italicize the words
+          -->
+          <p>
+            I am a future software engineer currently senior year in University of Washington.
+            <a href="Elma.html">Go Huskies!</a>
+            I ❤ bodybuilding.
+          </p>
+        </td>
+      </tr>
+    </table>
+    <hr>
+
+    <table>
+      <tr>
+        <td>
+          <h3><strong>Education</strong></h3>
+        </td>
+        <td>
+          <h3><strong>Projects</strong></h3>
+        </td>
+      </tr>
+      <tr>
+        <td>
+            <!--
+              <ul> stands for unordered list
+              bullet list
+            -->
+            <ul>
+              <li>University of Washington, WA</li>
+              <li>St.Martin University, WA</li>
+              <li>Riverland Community College, MN</li>
+            </ul>
+        </td>
+        <td>
+          <!--
+            <ul> stands for unordered list
+            bullet list
+          -->
+          <ul>
+            <li><a href = "https://github.com/kevinYang0612/Power_Grid">Power Grid</a></li>
+            <li><a href = "https://github.com/kevinYang0612/TriviaMaze">Trivia Maze</a></li>
+            <li><a href = "https://github.com/kevinYang0612/myapp">Join_Us</a></li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <hr>
+    <h3><strong>Professional Experience</strong></h3>
+      <table>
+        <thead>
+          <th>Dates</th><!-- table head cell element-->
+          <th>Work</th>
+        </thead>
+        <tbody>
+          <tr>    <!-- <tr> represents table rows, between tags is just a single row-->
+            <td> 2022 - present </td><!-- <td> represents table data -->
+            <td> Course facilitator at the University of Washington, Tacoma, WA </td>
+          </tr>
+          <tr>
+            <td> 2021 - present </td>
+            <td> Air Transportation Airman at Joint Base Lewis-Mcchord, WA. U.S. Air Force Reserve </td>
+          </tr>
+          <tr>
+            <td> 2016 - 2020 </td>
+            <td> Infantry Soldier at Joint Base Lewis-Mcchord, WA. U.S. Army Active Duty </td>
+          </tr>
+          <tr>
+            <td> 2015 - 2016 </td>
+            <td> College Tutor at Riverland Community College, MN </td>
+          </tr>
+        </tbody>
+        <!--<tfoot> </tfoot> between tfoot tags, can represent the last row, like total 10000$-->
+      </table>
+    <hr>
+    <h3><strong>Skills</strong></h3>
+    <table>
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td>Java</td>
+              <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>C#</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+
+          </table>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>SQL</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>HTML</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>C</td>
+              <td>⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>⭐⭐⭐</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+
+    <h3><strong><a href="Hobbies.html">My Hobbies</a></strong></h3>
+    <h3><strong><a href="Contact.html">Contact Me</a></strong></h3>
+    <h3><strong><a href="Bohan's%20Resume.pdf">My Resume</a></strong>
+
+
+
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+      ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
+
+</html>

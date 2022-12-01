@@ -1,0 +1,87 @@
+/*
+  CSS syntax:
+  selector{property : value;}
+  selector: who, who do you want to modify? example: h1, paragraph tags, hr, etc
+  property: what. what about do you want to change? example: background color, text color
+  value: how, how do you want to change? Blue? 100 pixel?
+
+  h1{ color: red}
+*/
+body
+{
+  background-color: #DEF5E5;
+}
+hr
+{
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  /*background-color: white;*/
+  /*border-style: dotted none none none none; same effect as following 2 lines*/
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 6px;
+  /*border-style: hidden;*/
+  width: 8%;
+}
+h1
+{
+  color: #7F669D;
+}
+h2
+{
+  color: #7F669D;
+}
+h3
+{
+  color: #7F669D;
+}
+img:hover
+{
+  background-color: #F3ECB0;
+}
+#education
+{
+  color: #0D4C92;
+}
+#project
+{
+  color: #0D4C92;
+}
+#experience
+{
+  color: #0D4C92;
+}
+#skills
+{
+  color: #0D4C92;
+}
+#hobbies
+{
+  color: black;
+}
+#contact
+{
+  color: black;
+}
+#resume
+{
+  color: black;
+}
+.grandTeton
+{
+  color: #66BFBF;
+}
+.yellowstone
+{
+  color: #009EFF;
+}
+.mtrainier
+{
+  color: #F1D3B3;
+}
+.Olympic
+{
+  color: #344D67;
+}

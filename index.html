@@ -27,9 +27,10 @@ the opening and closing is going to be HTML code-->
     <!-- Place favicon.ico in the root directory -->
 
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css">   <!-- There are 2 css files, main and styples-->
 
     <meta name="theme-color" content="#fafafa">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
 
 
@@ -43,6 +44,13 @@ the opening and closing is going to be HTML code-->
   }
 </style>
 
+<!--
+     CSS priority level, index.html is higher than styles.css
+     inside of <body style = "background-color: white"> , the inline element
+     is the highest level. Then, the index.html css is second important,
+     the third is the styles.css
+-->
+
   <body>
     <!--
       and a body
@@ -52,7 +60,7 @@ the opening and closing is going to be HTML code-->
       <tr>
         <td><img src="Bohan_circle.png" width="150" height="150" alt="Bohan profile picture"></td>
         <td>
-          <h1>Bohan(Kevin) Yang</h1>
+          <h1 id = "name">Bohan(Kevin) Yang</h1>
           <p>
             <em>
               Computer Science Student in
@@ -78,10 +86,10 @@ the opening and closing is going to be HTML code-->
     <table>
       <tr>
         <td>
-          <h3><strong>Education</strong></h3>
+          <h3 id = "education"><strong>Education</strong></h3>
         </td>
         <td>
-          <h3><strong>Projects</strong></h3>
+          <h3 id = "project"><strong>Projects</strong></h3>
         </td>
       </tr>
       <tr>
@@ -110,7 +118,7 @@ the opening and closing is going to be HTML code-->
       </tr>
     </table>
     <hr>
-    <h3><strong>Professional Experience</strong></h3>
+    <h3 id = "experience"><strong>Professional Experience</strong></h3>
       <table>
         <thead>
           <th>Dates</th><!-- table head cell element-->
@@ -137,7 +145,7 @@ the opening and closing is going to be HTML code-->
         <!--<tfoot> </tfoot> between tfoot tags, can represent the last row, like total 10000$-->
       </table>
     <hr>
-    <h3><strong>Skills</strong></h3>
+    <h3 id = "skills"><strong>Skills</strong></h3>
     <table>
       <tr>
         <td>
@@ -185,9 +193,9 @@ the opening and closing is going to be HTML code-->
     </table>
 
 
-    <h3><strong><a href="Hobbies.html">My Hobbies</a></strong></h3>
-    <h3><strong><a href="Contact.html">Contact Me</a></strong></h3>
-    <h3><strong><a href="Bohan's%20Resume.pdf">My Resume</a></strong>
+    <h3 id = "hobbies"><strong><a href="Hobbies.html">My Hobbies</a></strong></h3>
+    <h3 id = "contact"><strong><a href="Contact.html">Contact Me</a></strong></h3>
+    <h3 id = "resume"><strong><a href="Bohan's%20Resume.pdf">My Resume</a></strong></h3>
 
 
 
